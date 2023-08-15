@@ -10,10 +10,19 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    background-color: #efefef;
+}
+
+.heading {
+    display: inline-block;
+    margin-bottom: 3.2rem;
+    font-size: 3rem;
+    color: rgb(208, 37, 7);
 }
 
 .calculator {
-    border: 1px solid rgb(234, 234, 234);
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 8px;
 }
 
@@ -25,7 +34,7 @@ section {
 }
 
 .screen {
-    width: 100%;
+    width: 99.5%;
     color: white;
     background-color: black;
     text-align: right;
@@ -33,6 +42,7 @@ section {
     border-radius: 2px;
     height: 60px;
     margin-bottom: 10px;
+    border-radius: 8px 8px 0 0
 }
 
 button {
